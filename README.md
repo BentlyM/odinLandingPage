@@ -1,1 +1,1 @@
-echo # odinLandingPage
+odinLandingPage
