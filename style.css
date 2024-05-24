@@ -1,0 +1,92 @@
+body {
+    background-color: #1F2937;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    padding: 0%;
+    margin: 0%;
+}
+
+/*
+going insane
+*/
+.nav-section {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.nav-wrap {
+    width: 100%;
+    height: fit-content;
+}
+
+.nav-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+}
+
+.nav-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.nav-hook {
+    display: flex;
+    height: 40vh;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navigation{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin: 0%;
+    padding: 0%;
+}
+
+ul.navigation li {
+    display: inline-block;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-phrase {
+    font-weight: bolder;
+    font-size: 48px;
+    margin: 0%;
+}
+
+.nav-paragraph {
+    margin-top: 0%;
+}
+
+.web-card {
+    border: 2px solid white;
+    align-items: center;
+    width: 500px;
+}
+
+.nav-img {
+    width: 500px;
+    height: 200px;
+    object-fit: contain;
+}
+
+#btn {
+    border: none;
+    border-radius: 5px;
+    background-color: #3882f6;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    width: 120px;
+    padding: 5px;
+}
