@@ -4,6 +4,7 @@ body {
     font-family: "Roboto", sans-serif;
     padding: 0%;
     margin: 0%;
+    overflow-y: auto;
 }
 
 /*
@@ -91,13 +92,17 @@ ul.navigation li {
     cursor: pointer;
 }
 
-.sect-info {
+.sect {
     color: black;
     display: flex;
     justify-content: center;
-    background-color: white;
     width: 100%;
     height: 400px;
+    overflow: auto;
+}
+
+#sect-info{
+    background-color: white;
 }
 
 .sect-1 {
@@ -110,14 +115,15 @@ ul.navigation li {
 .info-card-wrap {
     display: flex;
     width: 75%;
+    height: 100%;
     justify-content: space-evenly;
     align-items: center;
 }
 .info-card {
-    width: 150px;
-    height: 150px;
+    width: 175px;
+    height: 175px;
     border: 4px solid #3882f6;
-    border-radius: 10px;
+    border-radius: 25px;
     display: inline-block;
 }
 
